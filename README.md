@@ -1,0 +1,2 @@
+# Vue.js: Creating and Hosting a Full-Stack Site
+Used Vue.js to build a simple front end; Node.js and MongoDB to construct the back end; Axios to communicate between the front and back ends; add authentication with Firebase Authentication
