@@ -74,7 +74,7 @@ export default {
       const email = prompt("Please enter your email to sign in:");
       const auth = getAuth();
       const actionCodeSettings = {
-        url: `<THE URL OF THE APPLICATION YOU CREATED IN THE RENDER DASHBOARD>`,
+        url: `https://fatgold.onrender.com/products/${this.$route.params.productId}`,
         handleCodeInApp: true,
       };
       await sendSignInLinkToEmail(auth, email, actionCodeSettings);
