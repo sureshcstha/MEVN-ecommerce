@@ -7,7 +7,7 @@ async function start() {
   const client = new MongoClient(url);
 
   await client.connect();
-  const db = client.db('fsv-db');
+  const db = client.db('fatgoldDB');
 
   const app = express();
   app.use(express.json());
